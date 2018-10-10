@@ -1,0 +1,115 @@
+	*{
+		margin:0;padding:0;
+		list-style: none;
+	}
+		/*头部*/
+	.head{
+		width:720px;
+		height: 135px;
+		background:#181b22 url(../img/c2.png) 20% no-repeat;
+	}
+	.head_left{
+		width: 55px;
+		height: 100px;
+		padding-top: 30px;
+		float: left;
+	}
+	.head_right{
+		width: 262px;
+		height: 100px;
+		padding-top: 30px;
+		float: right;
+	}
+/*尾部*/
+	.bottom{
+		width: 720px;
+		height: 455px;
+		background: #181b22;
+		border: 1px solid  #181b22;
+	}
+/*底部第一行*/
+	.footer1{
+		margin: 45px;
+		text-align: center;
+	}
+	.footer1 span{
+		color: #fff;
+		font-size: 15px;
+	}
+	.bottom .footer1 .inn1{
+		color: red;
+	}
+/*底部中间，新手指南部分*/
+	.footer2{
+		width: 90%;
+		height: 200px;
+		margin: 0 auto 30px;
+	}
+	.fot_inner1{
+		width: 16%;
+		height: 200px;
+		float: left;
+	}
+	.bottom .fot_inner1 .inn2{
+		color: #fff;
+	}
+	.fot_inner1 a{
+		color: #3c3c3c;
+		display: block;
+		text-decoration:none;
+		font-size: 14px;
+	}
+	.fot_inner1:first-child{
+		margin-left: 3%;
+	}
+/*底部最底端部分*/
+	.footer3 a{
+		color: #fff;
+		text-decoration:none;
+	}
+	.bottom p{
+		color: #fff;
+		text-align: center;
+		margin:10px;
+		font-size: 14px;
+	}
+
+		/*中部信息*/
+	.center{
+		width: 720px;
+		height: 830px;
+		margin: 0px auto;
+		margin-top: 30px;
+	}
+
+		/*顶部进度条*/
+	.jindu{
+		width:720px;
+		overflow: hidden;
+	}
+	.jindu img{float:right;}
+		/*确认订单信息*/
+	.mycar{
+		width:720px;
+		height:70px;
+		border:2px solid #e1e1e1;
+		background:#f2f2f2;
+		font-size:25px;
+		line-height: 70px;
+		text-align: center;
+		font-weight: bolder;
+		margin-top:30px;
+	}
+	.bank{
+		width:720px;
+		height:300px;
+		margin:0 auto;
+	}
+	.bank div{
+		float:left;
+		width:255px;
+		height:56px;
+		margin:50px;
+		border:1px solid #e1e1e1;
+		cursor:pointer;
+	}

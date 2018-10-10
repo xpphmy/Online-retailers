@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>邮箱验证</title>
+	<style>
+		*{margin:0;padding: 0;}
+		.box{
+			width: 300px;
+			padding-top: 20px;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<label for="">邮箱</label>
+		<input type="text">
+	</div>
+</body>
+<script>
+    var input=getElementsByTagName('input')[0]; 
+	// var str="1dj_a@164.dgg";
+	var reg=/^[a-z0-9](\w){2,14}[a-z0-9]@[a-z0-9]{1,16}\.[a-z]{2,8}$/g;
+	// alert(reg.test(str));
+	input.onblur=function() {
+		if (reg.test(input.value)) {
+			input.style.
+		}
+	}
+</script>
+</html>

@@ -1,0 +1,200 @@
+.box{width: 100%;
+         /* height: 1539px; *//* width: 1920px;*/}
+		.top{width: 100%;height: 135px;/* width: 1920px;*/
+             background: black;
+		}
+		.center{
+				 width:1529px;/*height: 950px;*/
+				 position:relative;
+				 left: 0;right: 0;
+				 margin: auto;
+		}
+		.div_1{
+			color: black;
+			text-decoration: none;
+		}
+		.center_1 div:nth-child(1){
+			margin-top: 44px;
+		}
+		.center_1 div:nth-child(2){
+			width: 598px;height: 3px;
+			background: #ccc;
+			margin-top: 45px;margin-left: 168px;
+		}
+		.center_1 div:nth-child(3){
+			width: 598px;height: 3px;
+			background: #ccc;
+			/*position: relative;*/
+			margin-top: -3px;margin-left: 766px;
+		}
+		/*协议签署*/
+		.center_1 div:nth-child(4){
+		    margin-left: 160px;margin-top: -53px;
+		}
+		.o1{width: 16px;height: 16px;
+			border-radius: 8px;
+			background: red;
+
+		}
+		/*填写信息*/
+		.center_1 div:nth-child(5){
+		    margin-left: 753px;margin-top: -80px;
+		}
+		.o2{width: 16px;height: 16px;
+			border-radius: 8px;
+			background: #ccc; 
+		}
+		/*完成*/
+		.center_1 div:nth-child(6){
+		    margin-left: 1356px;margin-top: -80px;
+		}
+		.o3{width: 16px;height: 16px;
+			border-radius: 8px;
+			background: #ccc; 
+		}
+        span{margin-left: -20px;}
+        /*条款内容*/
+        .center_2{
+        	/*display: none;*/
+        	width: 1525px;height: 573px;
+        	border: 1px solid #ccc;
+        	margin-top: 34px;
+        	background-image: url(images/03.jpg);
+        }
+        /*按钮*/
+        .center_3 button:nth-child(1){
+        	width: 192px;height: 45px;
+        	background:#ccc;
+        	margin-left:420px; margin-top: 53px;
+        	color: white;
+        	font-size: 20px;
+        	/*display: none;*/
+        }
+        .center_3 button:nth-child(2){
+        	width: 192px;height: 45px;
+        	background:red;
+        	margin-left:280px; 
+        	color: white;font-size: 20px;
+        	/*display: none;*/
+           
+        }
+        /*尾部*/
+        .tail{width: 100%;height: 400px;/* width: 1920px;*/
+				background: black;
+				margin-top: 100px;
+		}
+		.tail_box{width: 1529px;height: 400px;
+                 left: 0;top: 0;margin:auto;      
+		}
+        .tail_1{width: 1000px;height: 30px;
+        	/*background:red;*/
+        	position: absolute;
+        	margin-top: 30px;margin-left:150px;
+        	overflow: hidden;
+        	
+        }
+        .tail_1 h4{color: white;
+        	       float: left;
+        	       text-align: left;
+        	       margin-left:100px;
+
+        }
+        .tail_2{ width: 1305px;
+				 height: 168px;
+				/* background: white;*/
+				 position: relative;
+				 top: 100px;
+				 margin-left: 150px;
+				  overflow: hidden;
+		}
+		.tail_2 h5{ color: white;
+					margin-top: 15px;
+		}
+		.tail_2  div ul li{
+					        overflow: hidden;
+					        margin-top: 10px;
+		}
+		.tail_2  div ul li a{
+					       text-decoration: none;
+					       color: rgb(200,200,200);
+		}
+		.tail_2 div{float: left;
+					margin-left:80px; 
+		}
+        .img{
+	        	width: 943px;height: 58px;
+	        	background-image: url(images/04.jpg);
+	        	position: relative;
+	        	top:140px;left: 250px;
+
+        }
+      /*点击下一页后中间显示的页面信息填写框*/
+      .pag2_center{ display:none; 
+		      		width: 1140px;/*height:  360px;*/
+		      		/*background: #aaa;*/
+		      		margin-top: 34px;margin-left: 190px;
+      }
+      .pag2_center1{
+		      	    width: 1140px;height: 176px;
+		      	   /* background: #ccc;*/
+      }
+      .pag2_center1 input{width: 387px;height: 38px;
+                           margin-left: 30px;margin-top: 15px;
+
+      }
+      .pag2_center2{width: 1123px;height: 93px;
+					margin-top:40px; 
+      }
+      .pag2_center2_1{
+      	           width: 1123px;height: 44px;
+      	           background: #ccc;
+      	           border: 1px  solid ;
+      	           border-left: none;
+      	           overflow: hidden;
+      }
+	  .pag2_center2_1 div{
+	  	           width: 190px; line-height: 44px;
+	  	           float: left;
+	  	           border: 1px  solid ;
+	  	           border-right: none;
+	  	           border-top: none;
+	  	           border-bottom: none;
+	  	           text-align: center;
+		}
+		.pag2_center2_2{
+			       overflow: hidden;
+			       width: 1123px;height: 50px;
+			       border: 1px  solid ;
+      	           /*border-left: none;*/
+      	           border-top: none;
+
+		}
+		.pag2_center2_2 div{
+			       width: 190px; line-height: 50px;
+	  	           float: left;
+	  	           border: 1px  solid;
+ 	               border-top: none;
+	  	           border-left: none;
+	  	           border-bottom: none;
+	  	          /* text-align: center;*/    
+		}
+		.pag2_center2_2 select{
+					border:none;
+					font-size: 20px;
+					text-align: center;
+					margin-left: 70px;
+		}
+		.pag2_center2_3{width: 62px;height: 30px;
+						background: red;
+						margin-top:10px; 
+		}
+		 /*第三页填写完成时的中间框*/
+      	.pag3_center{width: 1193px;height: 630px;
+			      	 background-image: url(images/05.jpg);
+			      	 left: 0;right: 0;
+			      	 margin: auto;
+			      	 display: none;
+
+      	}
+
+

@@ -1,0 +1,150 @@
+.center{
+	width: 1200px;
+	height: 800px;
+	margin: 30px auto;
+	color: #999;
+}
+.center1{
+	margin-left: 30px;
+}
+.center1 span:nth-child(2){
+	color: #2f2f2f;
+}
+.center2{
+	margin: 50px auto;
+	width: 1000px;
+	height: 44px;
+}
+.center2 img{
+	width: 1000px;
+}
+/*订单追踪部分*/
+.inner1{
+	height: 150px;
+	border: 1px solid #dfdfdf;
+}
+.center3 li{
+	list-style: none;
+	font-size: 24px;
+	margin-left: 20px;
+	line-height: 40px;
+	color: #2f2f2f;
+}
+.center4 li,.center5 li{
+	width: 390px;
+	list-style: none;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+}
+.center3{
+	height: 40px;
+	background-color: #fafafa;
+}
+.center4{
+	height: 40px;
+	overflow: hidden;
+	border-bottom:  1px solid #dfdfdf;
+}
+/*<!-- 订单信息部分 -->*/
+.inner2{
+	height: 250px;
+	border: 1px solid #dfdfdf;
+	margin-top: 20px;
+	font-size: 15px;
+}
+.inner2 li{
+	list-style: none;
+}
+.center6{
+	height: 40px;
+	background-color: #fafafa;
+}
+.center6 li{
+	font-size: 24px;
+	margin-left: 20px;
+	line-height: 40px;
+}
+.center7,.center8,.center9{
+	height: 170px;
+	float: left;
+	text-align: left;
+	margin-top: 10px;
+}
+.center7{
+	width: 400px;
+}
+.center8{
+	width: 390px;
+	border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+}
+.center9{
+	width: 390px;
+}
+.center7 li{
+	width: 300px;
+	margin: 8px auto;
+}
+.center8 li{
+	width: 200px;
+	margin: 8px auto;
+}
+.center9 li{
+	width: 200px;
+	margin: 8px auto;
+}
+.inner2 div li:first-child{
+	color: #2f2f2f;
+	margin: 18px auto;
+}
+/*<!-- 商品编号部分 -->*/
+.inner3{
+	margin-top: 20px;
+	height: 150px;
+	border: 1px solid #dfdfdf;
+	list-style: none;
+	font-size: 15px;
+}
+.center10{
+	height: 40px;
+	border-bottom: 1px solid #dfdfdf;
+	overflow: hidden;
+	line-height: 40px;
+}
+.center10 li{
+	float: left;
+	width: 150px;
+	text-align: center;
+	color: #2f2f2f;
+}
+.center10 li:nth-child(1){
+	width: 150px;
+}
+.center10 li:nth-child(2){
+	width: 440px;
+}
+.center11{
+	width: 150px;
+	height: 110px;
+	float: left;
+	text-align: center;
+	line-height: 110px;
+	border-left: 1px solid #dfdfdf;
+}
+.center12{
+	width: 440px;
+	height: 110px;
+	float: left;
+	line-height: 20px;
+	border-left: 1px solid #dfdfdf;
+	overflow: hidden;
+}
+.center12a{
+	float: left;
+	margin: 12px;
+}
+.center12b{
+	float: left;
+	margin-top: 15px;
+}

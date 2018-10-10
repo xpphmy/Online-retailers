@@ -1,0 +1,445 @@
+	*{
+		margin:0;padding:0;
+		list-style: none;
+	}
+	html,body{
+		display: -webkit-box;
+		-webkit-box-orient:vertical;
+	}
+	.head{
+		display: -webkit-box;
+	}
+/*头部*/
+.top{
+	width: 100%;
+	background:#181b22;
+}
+.head{
+	width: 1200px;
+	height: 135px;
+	margin: 0 auto;
+	background:#181b22 url(../img/c2.png) center no-repeat;
+	overflow: hidden;
+}
+.head .head_left{
+	width: 3%;
+	height: 135px;
+	margin-left: 70px;
+}
+.head .head_right{
+	height: 135px;
+	-webkit-box-flex:1;
+	-webkit-box-pack:end;
+}
+.head div{
+	display: -webkit-box;
+	-webkit-box-align:center;
+	-webkit-box-pack:center;
+}
+.head_right img{
+	margin-right: 15px;
+}
+
+/*尾部*/
+.footer{
+	width: 100%;
+	background: #181b22;
+}
+.bottom{
+	width: 1200px;
+	height: 455px;
+	margin: 0 auto;
+	background: #181b22;
+}
+/*底部第一行*/
+.footer1{
+	padding: 40px;
+	text-align: center;
+}
+.footer1 span{
+	color: #fff;
+	font-size: 20px;
+}
+.bottom .footer1 .inn1{
+	color: red;
+}
+/*底部中间，新手指南部分*/
+.footer2{
+	width: 80%;
+	height: 200px;
+	margin: 0 auto 50px;
+}
+.fot_inner1{
+	width: 15%;
+	height: 200px;
+	float: left;
+}
+.bottom .fot_inner1 .inn2{
+	color: #fff;
+}
+.fot_inner1 a{
+	color: #3c3c3c;
+	display: block;
+	margin-bottom: 5px;
+	text-decoration:none;
+}
+/*底部最底端部分*/
+.footer3 a{
+	color: #fff;
+	text-decoration:none;
+}
+.fot_inner1:first-child{
+	margin-left: 10%;
+}
+.bottom p{
+	color: #fff;
+	text-align: center;
+	margin:10px;
+}
+	/*中部*/
+	.center{
+		width: 1200px;
+		height: 1200px;
+		margin: 0px auto;
+		margin-top: 30px;
+	}
+			/*我的购物车*/
+		/*新增收货地址*/
+	body{position:relative;}
+	.addbox{
+		width:1900px;
+		height:1230px;
+		background-color:rgba(56,56,56,0.5);
+		position:absolute;
+		display: none;
+	}
+	.newadd{
+		width:950px;
+		height:550px;
+		background:white;
+		border:1px solid #e1e1e1;
+		position: absolute;
+		top:250px;
+		left:470px;
+	}
+	.newadd div{
+		width:900px;
+		height:50px;
+		border-bottom:1px solid #e1e1e1;
+		margin:0 auto;
+	}
+	.newadd1{
+		width:900px;
+		border-bottom:1px solid #e1e1e1;
+		margin:0 auto;
+		height:60px;
+		font-size: 26px;
+		line-height: 50px;
+		text-align: center;
+		font-weight: bolder;
+	}
+	.newadd input{
+		height:50px;
+		color:#a9a9a9;
+		border:none;
+		outline:none;
+		font-size:20px;
+		line-height: 50px;
+		text-align: center;
+	}
+	.newadd button{
+		width:200px;
+		height:70px;
+		background:red;
+		color:white;
+		font-size:30px;
+		border:none;
+		float:left;
+		margin:50px;
+		margin-left:375px;
+	}
+	.newadd2 input{
+		width:150px;
+		margin-left:375px;
+	}
+	#map1{
+		margin-left:290px;
+	}
+	.newadd3 select{
+		width:100px;
+		height:50px;
+		border:none;
+		outline:none;
+		font-size: 20px;
+		color:#a9a9a9;
+		line-height: 50px;
+		text-align: center;
+	}
+	.newadd4 input{
+		margin-left:330px;
+	}
+	.newadd5 input{
+		margin-left:330px;
+	}
+	.newadd6 input{
+		margin-left:330px;
+	}
+	.newadd7 input{
+		margin-left:330px;
+	}
+
+		/*顶部进度条*/
+	.jindu{
+		width:1200px;
+		overflow: hidden;
+	}
+	.jindu img{float:right;}
+		/*收货人信息*/
+	.addres{
+		width:1200px;
+		height:470px;
+		border:2px solid #e1e1e1;
+		margin-top:30px;
+	}
+	.addres1{
+		width:1140px;
+		height:240px;
+		border-bottom:2px solid #e1e1e1;
+		margin:0 auto;
+		overflow: hidden;
+	}
+	.asdasd{overflow: hidden;}
+	.addres11{
+		float:left;
+		font-size:14px;
+		height:40px;
+		line-height: 40px;
+		text-align: center;
+		font-weight: bolder;
+	}
+	.addres12{
+		float:right;
+		font-size:14px;
+		height:40px;
+		line-height: 40px;
+		text-align: center;
+		font-weight: bolder;
+		color:#4eaaf5;
+		cursor:pointer;
+	}
+	.addres13{
+		margin-top:40px;
+		margin-left:50px;
+		width:1040px;
+		height:52px;
+		overflow: hidden;
+	}
+	/*收货人信息第一栏*/
+	.l1{
+		float: left;
+		width:240px;
+		height:50px;
+		border:1px solid #e1e1e1;
+		overflow: hidden;
+	}
+	.l1 div{
+		float:left;
+		text-indent:30px;
+		font-weight: bolder;
+	}
+	.la{
+		height:50px;
+		line-height: 50px;
+		text-align: center;
+	}
+	.ls{
+		height:50px;
+		line-height: 50px;
+		text-align: center;
+	}
+	.l2{
+		margin-left:70px;
+		float: left;
+		width:728px;
+		height:50px;
+		background:#e1e1e1;
+		overflow:hidden;
+		line-height: 50px;
+		text-align: center;
+		font-weight: bolder;
+	}
+	.l2 div{
+		float:left;
+		text-indent:30px;
+		cursor:pointer;
+	}
+	#ld2{display: none;}
+	#l22{background:white;}
+	#qa6{display: none;}
+	#qa7{display: none;}
+	#qa8{display: none;}
+	.apayment{
+		margin-top:20px;
+		margin-left:50px;
+		width:1040px;
+		height:52px;
+		border:1px solid #e1e1e1;
+	}
+		/*选择支付方式*/
+	.turepayment{
+		width:1200px;
+		height:60px;
+		line-height:60px;
+		font-weight: bolder;
+		text-indent:30px;
+	}
+	#bank{
+		overflow:hidden;
+		width:1100px;
+		margin:0 auto;
+	}
+	#bank div{
+		float:left;
+		width:200px;
+		height:40px;
+		line-height: 40px;
+		border:1px solid #e1e1e1;
+		text-align: center;
+		margin:30px;
+		cursor:pointer;
+	}
+	.addres2{
+		width:1140px;
+		height:230px;
+		margin:0 auto;
+	}
+		/*确认订单信息*/
+	.mycar{
+		width:1200px;
+		height:70px;
+		border:2px solid #e1e1e1;
+		background:#f2f2f2;
+		font-size:25px;
+		line-height: 70px;
+		text-align: center;
+		font-weight: bolder;
+		margin-top:30px;
+	}
+	.text{
+		font-size: 18px;
+		font-weight: bolder;
+		margin-top:30px;
+	}
+		/*商品信息*/
+	.close{
+		overflow: hidden;
+		width:1200px;
+		height:110px;
+		border:1px solid #e1e1e1;
+	}
+	.close div{
+		float:left;
+		height:110px;
+	}
+	.close1{
+		width:85px;
+		border-right:1px solid #e1e1e1;
+		overflow: hidden;
+	}
+	.close1 img{
+		float: left;
+	}
+	.close2{
+		width:486px;
+		border-right:1px solid #e1e1e1;
+	}
+	.close22{width:680px;overflow: hidden;}
+	.close22 p{
+		margin-left:30px;
+		margin-top:17px;
+		float:left;
+	}
+	.close22 ul{
+		float:left;
+		margin:17px;
+	}
+	.close22 li{
+		color:#696969;
+		font-size:14px;
+		line-height:20px;
+	}
+	.close3{
+		width:170px;
+		color:#696969;
+		line-height: 110px;
+		text-align: center;
+		border-right:1px solid #e1e1e1;
+	}
+	.close4{
+		width:200px;
+		border-right:1px solid #e1e1e1;
+		overflow: hidden;
+	}
+	.close4 p{
+		float: left;
+	}
+	.close42{
+		width:90px;
+		height:20px;
+		border:1px solid #e1e1e1;
+		line-height:20px;
+		text-align: center;
+		margin:45px;
+	}
+	.close5{
+		width:170px;
+		color:#696969;
+		line-height:110px;
+		text-align: center;
+		border-right:1px solid #e1e1e1;
+	}
+	.close6{
+		line-height:110px;
+		text-align: center;
+		color:#696969;
+		width:170px;
+	}
+	.close6 span{cursor:pointer;}
+		/*底部结算栏*/
+	.pay{
+		height:60px;
+		width:1200px;
+		border:1px solid #e1e1e1;
+		margin-top:40px;
+		overflow: hidden;
+	}
+	.pay div{
+		height:60px;
+		float:right;
+		font-size:14px;
+		font-weight: bolder;
+	}
+	
+	.pay span{
+		cursor:pointer;
+	}
+	.pay3{
+		width:90px;
+		line-height: 60px;
+		text-align: center;
+		color:#696969;
+	}
+	.pay4{
+		width:90px;
+		line-height: 60px;
+		text-align: center;
+		color:red;
+	}
+	.pay5{
+		width:134px;
+		color:white;
+		line-height: 60px;
+		text-align: center;
+		background: red;
+		cursor:pointer;
+	}

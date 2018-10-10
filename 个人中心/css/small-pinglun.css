@@ -1,0 +1,93 @@
+.center{
+	width: 480px;
+	/*height: 900px;*/
+	margin: 50px auto;
+	border: 1px solid #e1e1e1;
+	list-style: none;
+	overflow: hidden;
+}
+/*商品信息与图片部分*/
+.center-in1{
+	width: 480px;
+	height: 120px;
+	border: 1px solid #e1e1e1;
+	overflow: hidden;
+}
+.center-in1 .in1a{
+	width: 90px;
+	height: 120px;
+	border-right: 1px solid #e1e1e1;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+}
+.center-in1 .in2a{
+	float: left;
+}
+.center .in1a1{
+	width:82px;
+	float: left;
+	margin: 15px 25px;
+}
+.center-in1 .in1a2{
+	width: 230px;
+	float: left;
+	margin-top:13px;
+}
+/*评分*/
+.center-in2{
+	float: left;
+	width: 150px;
+	text-align: center;
+}
+.center-in2 li{
+	border-bottom: 1px solid #e1e1e1;
+	border-right: 1px solid #e1e1e1;
+}
+.center-in2 li:nth-child(1){
+	height: 40px;
+	line-height: 40px;
+}
+.center-in2 li:nth-child(2){
+	height: 150px;
+	line-height: 40px;
+}
+.center-in2 li:nth-child(3){
+	height: 150px;
+	line-height: 40px;
+}
+.center-in3{
+	width:330px;
+	float: left;
+}
+.center-in3 li{
+	padding-left: 20px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #e1e1e1;
+}
+.select0{
+	line-height: 40px;
+	padding-left: 20px;
+	height: 150px;
+	border-bottom: 1px solid #e1e1e1;
+}
+.picture{
+	height: 150px;
+	border-bottom: 1px solid #e1e1e1;
+}
+.btn_end{
+	width: 480px;
+	height:80px;
+	float: left;
+}
+.btn_end div{
+	width: 200px;
+	height: 45px;
+	background-color: red;
+	color: #fff;
+	line-height: 45px;
+	text-align: center;
+	margin: 15px 120px;
+	font-size: 16px;
+}

@@ -1,0 +1,368 @@
+	*{margin:0;padding:0;}
+		/*头部*/
+	.head{
+		height: 135px;
+		background:#181b22 url(../img/c2.png) 20% no-repeat;
+	}
+	.head_left{
+		width: 55px;
+		height: 100px;
+		padding-top: 30px;
+		float: left;
+	}
+	.head_right{
+		width: 262px;
+		height: 100px;
+		padding-top: 30px;
+		float: right;
+	}
+/*尾部*/
+	.bottom{
+		width: 100%;
+		height: 455px;
+		background: #181b22;
+		border: 1px solid  #181b22;
+	}
+/*底部第一行*/
+	.footer1{
+		margin: 45px;
+		text-align: center;
+	}
+	.footer1 span{
+		color: #fff;
+		font-size: 15px;
+	}
+	.bottom .footer1 .inn1{
+		color: red;
+	}
+/*底部中间，新手指南部分*/
+	.footer2{
+		width: 90%;
+		height: 200px;
+		margin: 0 auto 30px;
+	}
+	.fot_inner1{
+		width: 16%;
+		height: 200px;
+		float: left;
+	}
+	.bottom .fot_inner1 .inn2{
+		color: #fff;
+	}
+	.fot_inner1 a{
+		color: #3c3c3c;
+		display: block;
+		text-decoration:none;
+		font-size: 14px;
+	}
+	.fot_inner1:first-child{
+		margin-left: 3%;
+	}
+/*底部最底端部分*/
+	.footer3 a{
+		color: #fff;
+		text-decoration:none;
+	}
+	.bottom p{
+		color: #fff;
+		text-align: center;
+		margin:10px;
+		font-size: 14px;
+	}
+
+		/*中部信息*/
+			/*中部左侧信息*/
+	.center{
+		width: 720px;
+		height: 660px;
+		margin: 0px auto;
+		margin-top: 30px;
+	}
+	.center .center_left{
+		width: 180px;
+		height: 470px;
+		background: #fcfcfc;
+		float: left;
+	}
+	.left_in1{
+		width: 180px;
+		height: 50px;
+		border: 1px solid #e1e1e1;
+		font-size: 24px;
+		line-height: 50px;
+		text-align: center;
+	}
+	.left_in2{
+		margin: 10px auto;
+	}
+	.left_in2 li{
+		text-align: center;
+		list-style: none;
+		margin-top: 10px;
+		cursor: pointer;
+	}
+	.left_in2 a{
+		text-decoration:none;
+		font-size: 13px;
+		color: #2f2f2f;
+	}
+	/*中部右侧部分*/
+	.center_right{
+		width: 500px;
+		height: 650px;
+		border: 1px solid white;
+		float: left;
+		margin-left: 15px;
+	}
+										
+			/*我的收货地址*/
+	.address{
+		display: none;
+	}
+	.address_1{
+		width:500px;
+		height:55px;
+		border-bottom:2px solid #d4d4d4;
+		background:#fbfbfb;
+	}
+	.address_1 span{
+		font-size:26px;
+		margin-left:40px;
+		line-height:55px;
+		text-align:center;
+	}
+	.address_2{
+		width:500px;
+		height:363px;
+		border-bottom:2px solid #d4d4d4;
+		background:#fbfbfb;
+	}
+	.address_2 .addname{
+		width:214px;
+		height:75px;
+		font-size:18px;
+		line-height:75px;
+		text-align:center;
+	}
+	.addm{overflow: hidden;}
+	.address_2 ul{
+		float:left;
+		margin-left:80px;
+	}
+	.address_2 li{
+		font-size:18px;
+		margin:10px;
+	}
+	.addx{overflow: hidden;}
+	.addx ul{
+		float:right;
+		margin-right:60px;
+		overflow: hidden;
+	}
+	.addx li{
+		float:left;
+		color:#5d9df3;
+		cursor: pointer;
+		margin:30px;
+	}
+	.address_3{
+		width:500px;
+		height:133px;
+		background:#fbfbfb;
+		position: relative;
+	}
+	.address_3 p{
+		font-size:18px;
+		line-height:60px;
+		text-align:center;
+		width:200px;
+		height:60px;
+		border:2px solid #d4d4d4;
+		border-radius:8px 8px 8px 8px;
+		margin-left:100px;
+		position:absolute;
+		top:30px;
+	}
+											
+		/*我的申诉记录*/
+	.complaint{
+		display: none;
+	}
+	.com_1{
+		width:500px;
+		height:65px;
+		border-bottom:2px solid #d4d4d4;
+		background:#fbfbfb;
+	}
+	.com_1 span{
+		font-size:26px;
+		margin-left:40px;
+		line-height:65px;
+		text-align:center;
+	}
+	.com_2{
+		width:500px;
+		height:590px;
+		background:#fbfbfb;
+	}
+	.com_2a{
+		width:500px;
+		height:160px;
+		margin:0 auto;
+	}
+	.com_2a span{
+		font-size:14px;
+		margin:10px;
+		line-height:15px;
+		text-align:center;
+	}
+	.com_2a1{
+		width:498px;
+		height:80px;
+		border:1px solid #e1e1e1;
+		background:white;
+	}
+	.com_2a11{
+		height:80px;
+		width:110px;
+		border-right:1px solid #e1e1e1;
+		float: left;
+		font-size: 14px;
+		color:#383838;
+	}
+	.com_2a11 div{
+		margin-top:15px;
+		margin-left:27px;
+	}
+	.com_2a11 p{
+		margin-top:7px;
+		margin-left:15px;
+	}
+	.com_2a12{
+		height:80px;
+		width:386px;
+		border-right:1px solid #e1e1e1;
+		float: left;
+		overflow: hidden;
+	}
+	.com_img{
+		width:80px;
+		height:80px;
+		float: left;
+	}
+	.com_2a12 li{
+		font-size: 13px;
+		color:#b6b6b6;
+		margin:5px;
+	}
+	.com_2a13{
+		height:80px;
+		width:110px;
+		border-right:1px solid #e1e1e1;
+		border-bottom:1px solid #e1e1e1;
+		float: left;
+		line-height: 80px;
+		text-align: center;
+		font-size: 14px;
+		color:#b6b6b6;
+	}
+	.com_2a14{
+		height:80px;
+		width:110px;
+		border-right:1px solid #e1e1e1;
+		border-bottom:1px solid #e1e1e1;
+		float: left;
+	}
+	.com_nmb{
+		margin:30px;
+		margin-top:28px;
+		width:50px;
+		height:25px;
+		border:1px solid #e1e1e1;
+		border-bottom:1px solid #e1e1e1;
+		line-height: 25px;
+		text-align: center;
+	}
+	.com_2a15{
+		height:80px;
+		width:110px;
+		float: left;
+		border-right:1px solid #e1e1e1;
+		border-bottom:1px solid #e1e1e1;
+		font-size: 14px;
+		line-height: 80px;
+		text-align: center;
+		color:#e1e1e1;
+	}
+	.com_2a16{
+		height:80px;
+		width:164px;
+		font-size: 14px;
+		float: left;
+		border-bottom:1px solid #e1e1e1;
+		border-right:1px solid #e1e1e1;
+		line-height: 80px;
+		text-align: center;
+		cursor:pointer;
+	}
+	.com_2a16 a{
+		color:#e1e1e1;
+		text-decoration: none;
+	}
+	#com_tab1{
+		width:50px;
+		height:25px;
+		border:1px solid #e1e1e1;
+		float: right;
+		margin:10px;
+		line-height:25px;
+		text-align: center;
+		cursor:pointer;
+	}
+	#com_tab2{
+		width:50px;
+		height:25px;
+		border:1px solid #e1e1e1;
+		float: right;
+		margin:10px;
+		line-height:25px;
+		text-align: center;
+		cursor:pointer;
+	}
+	#com2{
+		 display: none;
+	}
+		/*如何申请退换货*/
+	.return{
+		width:475px;
+		height:530px;
+		background:#fcfcfc;
+	}
+	.return1{
+		width:457px;
+		height:50px;
+		border-bottom:1px solid #e1e1e1;
+	}
+	.return1 span{
+		font-size:20px;
+		font-weight:bolder;
+		line-height: 50px;
+		text-align: center;
+	}
+	.return21{
+		font-size:18px;
+		margin-top:15px;
+		margin-left:10px;
+	}
+	.return22{
+		font-size:15px;
+		margin-top:10px;
+		margin-left:20px;
+	}
+	.return23{
+		width:400px;
+		line-height:20px;
+		font-size:13px;
+		margin-top:10px;
+		margin-left:30px;
+	}

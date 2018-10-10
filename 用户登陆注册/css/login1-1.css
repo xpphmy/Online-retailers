@@ -1,0 +1,92 @@
+*{margin:0;padding:0;}
+	.big{
+		width: 700px;
+		height: 1150px;
+		background: url(../images/user1-1.png) center no-repeat;
+		margin: 0 auto;
+	}
+	.return{
+		font-size: 7px;
+		color: red;
+		position: absolute;
+		left: 1000px;
+		top:350px;
+	}
+	a{text-decoration: none;}
+/*中间部分*/
+	.center{
+		width: 400px;
+		margin:0 auto;
+		overflow: hidden;
+		list-style: none;
+	}
+	.title{
+		overflow: hidden;
+		margin-left: 80px;
+	}
+	h4{
+		width: 75px;
+		height: 20px;
+		color: #ccc;
+		font-size: 7px;
+		text-align: right;
+		float: left;
+		background: url(../images/user1-3.png) no-repeat;
+		margin:470px 40px 20px;
+	}
+	li{
+		width: 500px;
+		height: 500px;
+		display: none;
+	}
+	li .outer{
+		width: 250px;
+		height: 45px;
+		line-height: 45px;
+		text-align: center;
+		overflow: hidden;
+		margin: 30px auto 0;
+	}
+	li .inner{
+		width: 45px;
+		height:40px;
+		border: 1px solid #ccc;
+		float: left;
+	}
+	.outer input{
+		width: 200px;
+		height: 40px;
+		border: 1px solid #ccc;
+		float: left;
+	}
+	.outer .input{
+		width: 150px;
+	}
+	.click{
+		width: 100px;
+		height: 40px;
+		color: #fff;
+		background: red;
+		margin:80px 200px;
+	}
+	.select{
+		background: url(../images/user1-2.png) no-repeat;
+	}
+	.show{
+		display: block;
+	}
+/*底部*/
+	.bottom{
+		width: 60%;
+		font-size:7px;
+		margin:0 auto; 
+	}
+	.bottom-top{
+		width: 56%;
+		margin: 0 auto 10px;
+	}
+	.bottom-top a{
+		color: #000;
+		font-size:7px;
+		text-decoration:none;
+	}

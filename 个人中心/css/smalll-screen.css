@@ -1,0 +1,561 @@
+*{
+	margin: 0;padding: 0;
+}
+.head{
+		height: 135px;
+		background:#181b22 url(../img/c2.png) 20% no-repeat;
+	}
+	.head_left{
+		width: 55px;
+		height: 100px;
+		padding-top: 30px;
+		float: left;
+	}
+	.head_right{
+		width: 262px;
+		height: 100px;
+		padding-top: 30px;
+		float: right;
+	}
+/*尾部*/
+	.bottom{
+		width: 100%;
+		height: 455px;
+		background: #181b22;
+		border: 1px solid  #181b22;
+	}
+/*底部第一行*/
+	.footer1{
+		margin: 45px;
+		text-align: center;
+	}
+	.footer1 span{
+		color: #fff;
+		font-size: 15px;
+	}
+	.bottom .footer1 .inn1{
+		color: red;
+	}
+/*底部中间，新手指南部分*/
+	.footer2{
+		width: 90%;
+		height: 200px;
+		margin: 0 auto 30px;
+	}
+	.fot_inner1{
+		width: 16%;
+		height: 200px;
+		float: left;
+	}
+	.bottom .fot_inner1 .inn2{
+		color: #fff;
+	}
+	.fot_inner1 a{
+		color: #3c3c3c;
+		display: block;
+		text-decoration:none;
+		font-size: 14px;
+	}
+	.fot_inner1:first-child{
+		margin-left: 3%;
+	}
+/*底部最底端部分*/
+	.footer3 a{
+		color: #fff;
+		text-decoration:none;
+	}
+	.bottom p{
+		color: #fff;
+		text-align: center;
+		margin:10px;
+		font-size: 14px;
+	}
+/*中部*/
+.center{
+	width: 480px;
+	margin: 40px auto;
+	font-size: 14px;
+	overflow: hidden;
+}
+.center .center_left{
+	width: 120px;
+	height: 450px;
+	background: #fcfcfc;
+	float: left;
+}
+.left_in1{
+	height: 50px;
+	border: 1px solid #e1e1e1;
+	font-size: 16px;
+	line-height: 50px;
+	text-align: center;
+}
+.left_in2{
+	margin: 10px auto;
+}
+.left_in2 li{
+	height: 40px;
+	text-align: center;
+	list-style: none;
+	line-height: 40px;
+	cursor: pointer;
+}
+/*中部右侧部分*/
+/*个人中心-我的账单*/
+.content{
+	background-color:#fbfbfb;
+}
+.center_right{
+	width: 330px;
+	float: left;
+	margin-left: 30px;
+	display: none;
+}
+.center_right .myzd{
+	height: 65px;
+	line-height: 65px;
+	font-size: 16px;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+}
+.myzd select{
+	width: 100px;
+	height: 35px;
+	float: right;
+	font-size: 16px;
+	margin: 15px 10px 0px;
+}
+.myzd span{
+	float: right;
+	font-size: 16px;
+}
+.myzd span:nth-child(1){
+	color: red;
+	margin-right: 10px;
+}
+.inner_in{
+	margin: 20px 0 0 10px;
+	height: 110px;
+	font-size: 12px;
+}
+.inner_in li{
+	list-style: none;
+	text-align: center;
+	margin-top: 10px;
+}
+.inner_in div{
+	width: 160px;
+	height: 100px;
+	float: left;
+	border-bottom: 1px solid #ccc;
+}
+.inner_in li:first-child{
+	font-weight:bold;
+	margin-top: 20px;
+}
+
+/*个人中心-我的订单*/
+.center_right{
+	width: 330px;
+}
+.con_1{
+	height:45px;
+	line-height: 45px;
+	font-size: 16px;
+	background-color: #fbfbfb;
+	overflow: hidden;
+}
+.con_2{
+	height: 200px;
+	margin-top: 10px;
+	background-color: #fbfbfb;
+	font-size: 14px;
+}
+.conTap{
+	height: 45px;
+	padding-top: 15px;
+	overflow: hidden;
+	border-bottom: 1px solid #d4d4d4;
+}
+.conTap span{
+	width: 65px;
+	height: 35px;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 35px;
+	border-right: 1px solid #d4d4d4;
+}
+.conTap span:nth-child(1){
+	color: red;
+}
+/*tap切换中内容*/
+/*全部订单中的内容*/
+.con1{
+	height: 500px;
+	margin-top: 20px;
+}
+.con_2a{
+	height: 150px;
+}
+.con_2a span{
+	margin-left: 20px;
+}
+.con_2a1{
+	margin: 10px auto;
+	height: 110px;
+	border: 1px solid #e1e1e1;
+	background: #fff;
+}
+.con_2a1 div{
+	float: left;
+	font-size: 15px;
+}
+.con_2a1 li{
+	list-style: none;
+	line-height: 20px;
+}
+.con_in2_1{
+	width: 120px;
+	border-right: 1px solid #e1e1e1;
+	text-align: center;
+	padding: 38px 0;
+}
+.con_img{
+	margin: 10px 0px 10px 10px;
+}
+.con_in2_2{
+	width: 300px;
+	border-right: 1px solid #e1e1e1;
+	padding:15px 10px;
+}
+.con_in2_3,.con_in2_4,.con_in2_5{
+	width: 100px;
+	height: 110px;
+	border-right: 1px solid #e1e1e1;
+	text-align: center;
+}
+.con_in2_3{
+	line-height: 110px;
+}
+.con_in2_4 div{
+	width: 40px;
+	height: 25px;
+	border: 1px solid #f0f0f0;
+	margin:40px 30px;
+	text-align: center;
+	line-height: 25px;
+}
+.con_2a1 a{
+	text-decoration: none;
+	color: #ccc;
+}
+.con_in2_6{
+	width: 100px;
+	text-align: center;
+}
+.con_in2_5 li:nth-child(1){
+	margin-top:20px;
+}
+#inner1 a{
+	color: #fa6037;
+}
+#inner2{
+	width: 80px;
+	height: 25px;
+	margin:20px auto 10px;
+	line-height: 25px;
+	border: 1px solid #fa6037;
+	border-radius: 13px;
+}
+#inner2 a{
+	color: #fa6037;
+}
+/*立即购买*/
+#inner3{
+	width: 90px;
+	height: 25px;
+	margin:40px 10px;
+	line-height: 25px;
+	border: 1px solid #ccc;
+	border-radius: 12px;
+}
+#inner4{
+	margin-top: 30px;
+}
+#inner5{
+	width: 90px;
+	height: 25px;
+	margin:20px auto 5px;
+	line-height: 25px;
+	border: 1px solid #ccc;
+	border-radius: 12px;
+}
+/*个人中心-修改密码*/
+/*中部右侧部分*/
+.center_right{
+	width: 350px;
+	margin-left: 10px;
+	display: none;
+	float: left;
+}
+/*修改密码*/
+.right_1{
+	height: 50px;
+	background-color: #fcfcfc;
+	font-size: 20px;
+	line-height: 50px;
+	text-indent: 30px;
+	border-bottom: 1px solid #ccc;
+}
+/*图片切换部分*/
+.right_2{
+	text-align: center;
+}
+.right_2 .right_3{
+	margin: 30px auto;
+}
+.right_3 img{
+	width: 320px;
+	height: 30px;
+}
+.right_2 p{
+	font-size: 13px;
+}
+.right_2 p:nth-child(2){
+	margin:25px auto;
+}
+.right_2 input{
+	width: 120px;
+	height: 25px;
+}
+.right_2 .right_4{
+	margin:50px auto;
+	width: 200px;
+	height: 40px;
+	background: #ff3156;
+	line-height: 40px;
+	color: #fff;
+	font-size: 20px;
+}
+.right_2 .gg2{
+	height: 40px;
+	width: 400px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+.gg2 div{
+	width: 40px;
+	height: 36px;
+	border-left: 1px solid #c4c2c2;
+	border-top: 1px solid #c4c2c2;
+	border-bottom: 1px solid #c4c2c2;
+	float: left;
+	margin-left: 20px;
+}
+.right_2 .gg2 img{
+	margin: 5px;
+	width: 18px;
+	height: 27px;
+}
+.right_2 .gg2 input{
+	float: left;
+	height: 34px;
+	width: 250px;
+}.img_c12{
+	margin: 20px;
+}
+.img_0c12{
+	color: #68aef5;
+	margin-bottom: 100px;
+}
+
+/*个人中心-售后服务*/
+/*中部右侧部分*/
+.center_right{
+	width: 480px;
+	float: left;
+	margin-left: 30px;
+}
+/*申请退货*/
+.center_right .right_in1{
+	height: 50px;
+	background: #fcfcfc;
+	font-size: 24px;
+	line-height: 50px;
+	text-indent: 30px;
+}
+/*时间订单号..*/
+.center_right .right_in2{
+	margin-top: 10px;
+	height: 960px;
+	background: #fcfcfc;
+}
+.right_inner1{
+	height: 30px;
+	padding-top:20px;
+}
+.right_inner1 span{
+	margin: 10px;
+	font-size: 13px;
+}
+/*商品编号*/
+.right_inner2{
+	margin: 10px auto;
+	border-top: 1px solid #e1e1e1;
+	background: #fff;
+	overflow: hidden;
+}
+.right_inner2 div{
+	float: left;
+	font-size: 15px;
+	height: 130px;
+	border-bottom: 1px solid #e1e1e1;
+}
+.right_inner2 li{
+	list-style: none;
+}
+.right_in2_1 li:nth-child(1){
+	margin-top: 40px;
+}
+.right_in2_1{
+	width: 120px;
+	border-left: 1px solid #e1e1e1;
+	border-right: 1px solid #e1e1e1;
+	text-align: center;
+}
+.right_img img{
+	margin:20px;
+}
+.right_in2_2{
+	width: 233px;
+	border-right: 1px solid #e1e1e1;
+}
+.right_in2_2 li:nth-child(1){
+	margin-top: 20px;
+}
+.right_in2_3{
+	border-left:1px solid #e1e1e1;
+	border-right: 1px solid #e1e1e1;
+	width: 120px;
+	text-align: center;
+	line-height: 110px;
+}
+.right_in2_4{
+	width: 122px;
+	border-right: 1px solid #e1e1e1;
+	text-align: center;
+	line-height: 110px;
+}
+.right_in2_5{
+	width: 115px;
+	border-right: 1px solid #e1e1e1;
+	text-align: center;
+	line-height: 110px;
+}
+.right_in2_6{
+	width: 116px;
+	border-right: 1px solid #e1e1e1;
+	text-align: center;
+	line-height: 110px;
+}
+.right_in2_4 div{
+	width: 40px;
+	height: 25px;
+	border: 1px solid #f0f0f0;
+	margin:40px;
+	text-align: center;
+	line-height: 25px;
+}
+/*退货原因*/
+.right_inner3{
+	margin-top: 20px;
+	height: 60px;
+	list-style: none;
+	border-top:1px solid #c8c8c8;
+	border-bottom:1px solid #c8c8c8;
+	overflow: hidden;
+}
+.right_inner3 li{
+	height: 30px;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	margin: 15px 20px;
+}
+.right_inner3 li:nth-child(2),.right_inner3 li:nth-child(3){
+	width: 140px;
+	border: 1px solid #c8c8c8;
+	border-radius: 10px;
+}
+/*售后类型*/
+.right_inner4{
+	height: 60px;
+	list-style: none;
+	border-bottom:1px solid #c8c8c8;
+	overflow: hidden;
+}
+.right_inner4 li{
+	height: 30px;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	margin: 15px 20px;
+}
+.right_inner4 li:nth-child(2){
+	width: 120px;
+	border: 1px solid #c8c8c8;
+	border-radius: 10px;
+	margin-left: 30px;
+}
+/*填写退货原因*/
+.right_inner5{
+	list-style: none;
+	overflow: hidden;
+	margin: 25px 20px;
+}
+.right_inner5 li{
+	float: left;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.right_inner5 div{
+	width: 320px;
+	height: 300px;
+	float: left;
+	margin-left: 20px;
+	border: 1px solid #c8c8c8;
+}
+/*上传图片*/
+.right_inner6{
+	list-style: none;
+	overflow: hidden;
+	margin: 25px 50px;
+}
+.right_inner6 li{
+	float: left;
+	line-height: 30px;
+}
+.right_inner6 div{
+	width: 160px;
+	height: 160px;
+	margin-left: 20px;
+	float: left;
+	border: 1px solid #c8c8c8;
+}
+.right_inner6 img{
+	width: 77px;
+	height: 77px;
+	margin: 40px;
+}
+/*提交*/
+.right_in3{
+	width: 150px;
+	height: 40px;
+	margin: 20px auto;
+	background: red;
+	line-height: 40px;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+}

@@ -1,0 +1,138 @@
+	*{
+		margin:0;padding:0;
+		list-style: none;
+	}
+	html,body{
+		display: -webkit-box;
+		-webkit-box-orient:vertical;
+	}
+	.head{
+		display: -webkit-box;
+	}
+/*头部*/
+.top{
+	width: 100%;
+	background:#181b22;
+}
+.head{
+	width: 1200px;
+	height: 135px;
+	margin: 0 auto;
+	background:#181b22 url(../img/c2.png) center no-repeat;
+	overflow: hidden;
+}
+.head .head_left{
+	width: 3%;
+	height: 135px;
+	margin-left: 70px;
+}
+.head .head_right{
+	height: 135px;
+	-webkit-box-flex:1;
+	-webkit-box-pack:end;
+}
+.head div{
+	display: -webkit-box;
+	-webkit-box-align:center;
+	-webkit-box-pack:center;
+}
+.head_right img{
+	margin-right: 15px;
+}
+
+/*尾部*/
+.footer{
+	width: 100%;
+	background: #181b22;
+}
+.bottom{
+	width: 1200px;
+	height: 455px;
+	margin: 0 auto;
+	background: #181b22;
+}
+/*底部第一行*/
+.footer1{
+	padding: 40px;
+	text-align: center;
+}
+.footer1 span{
+	color: #fff;
+	font-size: 20px;
+}
+.bottom .footer1 .inn1{
+	color: red;
+}
+/*底部中间，新手指南部分*/
+.footer2{
+	width: 80%;
+	height: 200px;
+	margin: 0 auto 50px;
+}
+.fot_inner1{
+	width: 15%;
+	height: 200px;
+	float: left;
+}
+.bottom .fot_inner1 .inn2{
+	color: #fff;
+}
+.fot_inner1 a{
+	color: #3c3c3c;
+	display: block;
+	margin-bottom: 5px;
+	text-decoration:none;
+}
+/*底部最底端部分*/
+.footer3 a{
+	color: #fff;
+	text-decoration:none;
+}
+.fot_inner1:first-child{
+	margin-left: 10%;
+}
+.bottom p{
+	color: #fff;
+	text-align: center;
+	margin:10px;
+}
+
+	/*中部*/
+	.center{
+		width: 1200px;
+		height: 700px;
+		margin: 0px auto;
+		margin-top: 30px;
+		position:relative;
+	}
+		/*顶部进度条*/
+	.jindu{
+		width:1200px;
+		overflow: hidden;
+	}
+	.jindu img{float:right;}
+		/*确认订单信息*/
+	.mycar{
+		width:1200px;
+		height:70px;
+		border:2px solid #e1e1e1;
+		background:#f2f2f2;
+		font-size:25px;
+		line-height: 70px;
+		text-align: center;
+		font-weight: bolder;
+		margin-top:30px;
+	}
+	.bank{
+		width:1100px;
+		height:300px;
+		margin:0 auto;
+	}
+	.bank div{
+		float:left;
+		width:255px;
+		height:56px;
+		margin:50px;
+		border:1px solid #e1e1e1;
+		cursor:pointer;
+	}

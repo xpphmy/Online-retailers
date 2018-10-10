@@ -1,0 +1,90 @@
+/*开始*/
+	*{margin:0;padding:0;}
+	.big{
+		width: 1200px;
+		height: 1150px;
+		background: url(../images/user1-1.png) center no-repeat;
+		margin:0 auto;
+	}
+	.return{
+		color: red;
+		position: absolute;
+		left: 1200px;
+		top:350px;
+	}
+	a{text-decoration: none;}
+/*中间部分*/
+	.center{
+		width: 1000px;
+		margin:0 auto;
+		overflow: hidden;
+		list-style: none;
+	}
+	.title{
+		margin-left: 300px;
+		overflow:hidden;
+	}
+	h4{
+		width: 150px;
+		color: #ccc;
+		text-align: center;
+		float: left;
+		background: url(../images/user1-3.png) no-repeat;
+		margin:470px 50px 50px;
+	}
+	li{
+		width: 1008px;
+		height: 430px;
+		display: none;
+		/*margin-bottom:100px;*/
+	}
+	li .outer{
+		width: 350px;
+		height: 45px;
+		line-height: 45px;
+		text-align: center;
+		overflow: hidden;
+		margin: 30px auto 0;
+	}
+	li .inner{
+		width: 45px;
+		height:40px;
+		border: 1px solid #ccc;
+		float: left;
+	}
+	.outer input{
+		width: 300px;
+		height: 40px;
+		border: 1px solid #ccc;
+		float: left;
+	}
+	.outer .input{
+		width:200px;
+	}
+	.click{
+		width: 150px;
+		height: 40px;
+		font-size: 20px;
+		color: #fff;
+		background: red;
+		margin:50px 430px;
+	}
+	.select{
+		background: url(../images/user1-2.png) no-repeat;
+	}
+	.show{
+		display: block;
+	}
+/*底部开始*/
+	.bottom{
+		width: 80%;
+		margin:50px auto;
+	}
+	.bottom-top{
+		width: 68%;
+		margin: 0 auto 20px;
+	}
+	.bottom-top a{
+		color: #000;
+		text-decoration:none;
+	}
